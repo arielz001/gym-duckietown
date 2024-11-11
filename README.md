@@ -127,7 +127,7 @@ Follow instructions from [here](https://docs.anaconda.com/anaconda/install/mac-o
 
 ### Windows and Linux
 ```
-conda env create --name gym-duckietown python=3.8
+conda create --name gym-duckietown python=3.8
 conda activate gym-duckietown
 git clone https://github.com/arielz001/gym-duckietown/tree/master 
 cd gym-duckietown
@@ -136,7 +136,7 @@ python setup.py
 
 ### Macos
 ```
-conda env create --name gym-duckietown python=3.8
+conda create --name gym-duckietown python=3.8
 conda activate gym-duckietown
 git clone -b macbook https://github.com/arielz001/gym-duckietown/tree/master 
 cd gym-duckietown
