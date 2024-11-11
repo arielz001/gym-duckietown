@@ -131,7 +131,8 @@ conda create --name gym-duckietown python=3.8
 conda activate gym-duckietown
 git clone https://github.com/arielz001/gym-duckietown/tree/master 
 cd gym-duckietown
-python setup.py
+pip install -r requirements.txt
+python contracts_modify.py
 ```
 
 ### Macos
