@@ -3,8 +3,7 @@ import sys
 
 env_path = sys.prefix
 
-file_path = os.path.join(env_path, 'lib', 'python3.8', 'site-packages', 'contracts', 'library', 'array_ops.py')
-
+file_path = os.path.join(env_path, 'lib', 'site-packages', 'contracts', 'library', 'array_ops.py')
 with open(file_path, 'r') as file:
     lines = file.readlines()
 
